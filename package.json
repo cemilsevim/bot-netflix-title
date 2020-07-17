@@ -1,0 +1,41 @@
+{
+  "name": "bot-netflix-title",
+  "version": "1.0.0",
+  "description": "Netflix title bot",
+  "main": "src/bot.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register test/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmlsvm/bot-netflix-title.git"
+  },
+  "keywords": [
+    "netflix",
+    "netflix",
+    "title",
+    "netflix",
+    "bot",
+    "bot"
+  ],
+  "author": "Cemil Sevim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmlsvm/bot-netflix-title/issues"
+  },
+  "homepage": "https://github.com/cmlsvm/bot-netflix-title#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^8.0.0",
+    "@types/node": "^14.0.22",
+    "chai": "^4.2.0",
+    "install": "^0.13.0",
+    "mocha": "^8.0.1",
+    "npm": "^6.14.6",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
